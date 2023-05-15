@@ -5,7 +5,6 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@material-ui/core/Menu';
 import {Avatar, Divider} from "@mui/material";
 import {useNavigate} from "react-router-dom";
 
@@ -30,7 +29,7 @@ export default () => {
                 >
                 </IconButton>
                 <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
-                    Books
+                    Books App
                 </Typography>
                 {token ?
                     <>
