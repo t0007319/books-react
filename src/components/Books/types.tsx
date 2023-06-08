@@ -3,5 +3,5 @@ export interface Book {
     title: string;
     author: string;
     price: string;
-    isPublic?: boolean
+    is_public?: boolean
 }

@@ -7,3 +7,8 @@ export type FormErrors = {
     email: string|undefined,
     password: string|undefined,
 }
+
+export type Login = {
+    email: string,
+    password: string
+}

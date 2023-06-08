@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import './App.css'
 import Login from "./components/Login";
-import Home from "./components/Home";
+import HomePage from "./components/HomePage";
 import {
     BrowserRouter as Router,
     Routes,
@@ -24,7 +24,7 @@ function App() {
                     <Routes>
                         <Route path="/login" element={<Login/>}/>
                         <Route path="/books/create" element={<CreateBook/>}/>
-                        <Route path="/" element={<Home/>}/>
+                        <Route path="/" element={<HomePage/>}/>
                     </Routes>
                 </Router>
           </div>
